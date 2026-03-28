@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 500px;
+}
+
+.container .left img{
+    width: 300px;
+    margin: -28px;
+
+}
+
+.container .left{
+    margin-top: -120px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-inline: auto;
+    max-width: 1060px;
+    gap: 80px;
+}
+
+.container .right {
+    text-align: center;
+}
+
+form{
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.form-container{
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 8px 16px rgba(0,0,0,0.1);
+    width: 396px;
+    margin-bottom: 30px;
+}
+
+form input{
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #dddff2;
+    font-family: "Helvetica" sans-serif;
+}
+
+form input:focus{
+    outline: 1px solid #1877f2;
+}
+
+form input ::placeholder{
+    color:#a9a9aa
+}
+
+form a{
+    font-size: 14px;
+    color: #1877f2;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px #dddff2 solid;
+}
+
+form a:hover{
+    text-decoration: underline;
+}
+
+.btnb{
+    background-color:#1877f2;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btng{
+    background-color: #42b72a;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-bottom: 10px ;
+}
+
+.right p{
+    font-size: 14px;
+}
+
+.right p a{
+    color: #000;
+}
+
+@media(max-width: 900px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .h2{
+        font-size: 24px;
+        width: 400px;
+        line-height: 1.2;
+    }
+
+    .container .left{
+        margin-top: 40px;
+    }
+}

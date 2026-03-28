@@ -1,0 +1,46 @@
+body{
+    background-color: #000;
+}
+
+.right{
+    background-color: #1c1e21;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+p{
+    color: rgb(168,168,168);
+}
+
+.container{
+    display: flex;
+}
+
+#instlg{
+    width: 7%;
+}
+
+#faceslg{
+    width: 70%;
+}
+
+h2{
+    color: #fff;
+}
+
+span{
+    background-image: linear-gradient(to right, #ff5c00, #ff0069, #d300c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
